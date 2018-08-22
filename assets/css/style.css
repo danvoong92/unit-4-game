@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.jumbotron {
+    border: 2px dashed white; 
+    background-color: rgb(53, 132, 185);
+    color: white;
+}
+
+img {
+    cursor: pointer;
+    padding: 20px;
+    width: 100px;
+    height: 150px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
