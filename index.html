@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collector</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+
+        <div class="jumbotron">
+            <div class="container">
+                <h1 class="text-center"><strong>Crystal Collector</strong></h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">How To Play</h5>
+                        <p class="card-text text-center">
+                            The goal of the game is to reach the target score by click each of the four crystals below.
+                            In every round, each crystal will randomly add a set amount of points to your current score.
+                            Try and match up with the target score to win the game!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Target Score</h5>
+                        <p class="card-text text-center" id="targetScore"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Your Score</h5>
+                        <p class="card-text text-center" id="yourScore"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <div class="card-body" style="margin-left: auto; margin-right: auto;">
+                        <h5 class="card-title text-center">Choose A Crystal to Add to Your Score</h5>
+                        <img src="assets/images/red.png" alt="" id="red">
+                        <img src="assets/images/blue.png" alt="" id="blue">
+                        <img src="assets/images/yellow.png" alt="" id="yellow">
+                        <img src="assets/images/green.png" alt="" id="green">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Wins</h5>
+                        <p class="card-text text-center" id="wins">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Losses</h5>
+                        <p class="card-text text-center" id="losses">0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="assets/javascript/game.js"></script>
+</body>
+</html>
